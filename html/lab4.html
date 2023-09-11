@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="lool.php" method="get">
+    
+        <div>
+    
+        <label>web name</label>
+        <input type="text" name="web_name" value="El_Zero" readonly> <!-- disabled لايتم ارساله الا النموذج-->
+        <br>
+        <br>
+    
+        <fieldset>
+            <legend>Personal information:</legend>
+        <input type="hidden" name="id" value="4">
+        <label for="user">user name  </label>
+        <input type="text" placeholder="name" id="user" required>
+        <br>
+        <br>
+    
+        <label for="pas">password </label>
+        <input type="text" id="pas" minlength="7" maxlength="10">
+        <br>
+        <br>
+    
+        <label for="Em">Email</label>
+        <input type="email" id="Em">
+        <br>
+        <br>
+    
+        <label for="id">telephon  </label>
+        <input type="tel" placeholder="telephon" id="tel">
+        <br>
+    
+        </fieldset>
+        <p><b>Date of birth</b></p>
+        <label for="date">Date</label>
+        <input type="date" >
+        <label for="month">Month</label>
+        <input type="month" id="month">
+        <label for="time">Time</label>
+        <input type="time" id="time">
+        <br>
+        <br>
+    
+        <label for="col">color</label>
+        <input type="color" id="col">
+        <br>
+        <br>
+    
+        <label for="ran">range</label>
+        <input type="range" id="ran" step="10" min="10" max="100" value="30">
+        <br>
+        <br>
+    
+        <label for="num">Number</label>
+        <input type="number" value="20" step="10" id="num">
+        <br>
+        <br>
+        <input type="submit" value="send ">
+        <input type="reset"  value="reset ">
+    
+        </div>
+        <hr>
+    
+        <h4>Select one choice</h4>
+        <input type="radio" id="win"  name="oc" checked>  <!--importoent add name Element all of chocies-->
+        <label for="win">windows</label>
+        <br>
+        <input type="radio" id="mac" name="oc">
+        <label for="mac">mac</label>
+        <br>
+        <input type="radio" id="une" name="oc">
+        <label for="une">linex</label>
+    
+        <h4>Who Do You love</h4>
+        <input type="checkbox" id="fat">
+        <label for="fat" > Father </label>
+        <input type="checkbox" id="mat" checked>
+        <label for="mat" > Mather </label>
+        <input type="checkbox" id="sis">
+        <label for="sis" > sister </label>
+        <input type="checkbox" id="bra">
+        <label for="bra" > brather </label>
+    
+        <br>
+        <br>
+        
+    
+        
+    
+    <div>
+    
+       
+        <select  id="device">
+            <optgroup label="pc">
+            <option value="win">windows</option>
+            <option value="mac">mac</option>
+            <option value="lin">linex</option>
+          </optgroup>
+    
+           <optgroup label="Mobile">
+            <option>Android</option>
+            <option>Ios</option>
+           </optgroup>
+        </select>
+        <br>
+        <br>
+     
+        <label>Data list</label>
+        <input list="mobile">
+        <datalist id="mobile">
+            <option value="oneplus"></option>
+            <option value="xiaomi"></option>
+            <option value="Iphone"></option>
+            <option value="oppo"></option>
+        </datalist>
+        <br>
+        <br>
+    
+    
+        <label>Enter file</label>
+        <input type="file" >
+        <br>
+        <br>
+    
+        <label>Search</label>
+        <input type="search">
+        <br>
+        <br>
+    
+        <label>Url</label>
+        <input type="url">
+        <br>
+        <br>
+    
+      <textarea rows="10px" cols="25px" placeholder="comment" id="com"></textarea>
+        <br>
+        <br>
+    
+        <input type="submit" value="ارسال">
+        <input type="reset" value="حذف">
+    
+    </div>
+
+
+
+
+
+       
+    </form>
+</body>
+</html>
